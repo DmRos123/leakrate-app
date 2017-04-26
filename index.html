@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leak Rate Conversion Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+<div id="box">
+	<h1>Leak Rate Calculator</h1>
+	<form id="calculator">
+<p>Enter VALUE:  
+<input type="text" name="value" id="leak-value" size="15" maxlength="30">
+</p>
+<p>
+<label for="start-units">
+Select unit of measure at start
+</label>
+<select name="measurement" id="start-units">
+<option value="std-cc/sec">std-cc/sec</option>
+<option value="torr-L/sec">torr-L/sec</option>
+<option value="mol/sec">mol/sec</option>
+<option value="mb-L/sec">mb-L/sec</option>
+<option value="std-ft3/hr">std-ft3/hr</option>
+<option value="Pa-m3/sec">Pa-m3/sec</option>
+</select>
+</p>
+<p>
+<label for="converted-units">
+Select unit of measure for conversion
+</label>
+<select name="measurement" id="converted-units">
+<option value="std-cc/sec">std-cc/sec</option>
+<option value="torr-L/sec">torr-L/sec</option>
+<option value="mol/sec">mol/sec</option>
+<option value="mb-L/sec">mb-L/sec</option>
+<option value="std-ft3/hr">std-ft3/hr</option>
+<option value="Pa-m3/sec">Pa-m3/sec</option>
+</select>
+</p>
+<div id="result"></div>
+	</form>
+	</div>
+	<script type="text/javascript" src="converter.js"></script>
+</body>
+</html>
