@@ -1,0 +1,97 @@
+/* general */
+
+html { 
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+}
+
+body {
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+  background: #EEE;
+  font: 18px Georgia,Times,"Times New Roman",serif;
+}
+
+#main-content {
+  width: 500px;
+  margin: 40px auto; padding: 20px;
+  background-color: #1A7BB9;
+  border: 3px black;
+  border-radius: 24px;
+  box-shadow: 5px 5px black;
+}
+
+h1 {
+  font: 30px Arial,"Helvetica Neue",Helvetica,sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* menu page */
+
+ul#measurement-types {
+  list-style-type: none;
+  margin: 1em 0; padding: 0;
+}
+
+ul#measurement-types li {
+  height: auto;
+  margin: 0 0 10px 120px; padding: 0;
+}
+
+ul#measurement-types li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  display: block;
+  background: white;
+  padding: 16px 24px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+ul#measurement-types li a:hover {
+  color: white;
+  background: #1A7BB9;
+  box-shadow: 2px 2px black;
+}
+
+
+/* conversion forms */
+
+form label {
+  display: inline-block;
+  width: 45px;  
+}
+
+form input[type="text"] {
+  width: 120px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+form select {
+  margin: 1em 0;
+  font-size: 14px;
+}
+
+form input[type="submit"] {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  display: block;
+  background: white;
+  margin: 2em 0 2em 25px;
+  padding: 6px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+form input[type="submit"]:hover {
+  color: white;
+  background: #1A7BB9;
+}
+
+
